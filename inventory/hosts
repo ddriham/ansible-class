@@ -1,0 +1,8 @@
+[remote-controller]
+ansible ansible_host=127.0.0.1 ansible_connection=local ansible_become=true
+[web]
+web-ddriham-1 ansible_host=10.0.47.209 ansible_connection=ssh ansible_user=ubuntu ansible_become=true
+web-ddriham-2 ansible_host=10.0.33.46 ansible_connection=ssh ansible_user=ubuntu ansible_become=true
+[db]
+db-ddriham ansible_host=10.0.40.200 ansible_connection=ssh ansible_user=ec2-user ansible_become=true
+
